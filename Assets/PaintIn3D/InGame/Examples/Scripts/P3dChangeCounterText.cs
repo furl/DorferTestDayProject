@@ -50,6 +50,7 @@ namespace PaintIn3D.Examples
 
 			var final   = format;
 			var percent = P3dHelper.RatioToPercentage(P3dHelper.Divide(count, total), decimalPlaces);
+			
 
 			final = final.Replace("{TOTAL}", total.ToString());
 			final = final.Replace("{COUNT}", count.ToString());
